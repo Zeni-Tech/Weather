@@ -1,0 +1,38 @@
+*{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+label{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 70px;
+}
+input[type="number"]{
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+button{
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: rgb(32, 159, 206);
+    font-size: medium;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0px 0px 50px rgb(3, 131, 178);
+}
+div{
+    margin-top: 150px;
+    margin-left: 460px;
+    background-color: rgba(0, 0, 0, 0.708);
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;   
+    text-align: center;
+}
